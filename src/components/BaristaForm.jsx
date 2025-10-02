@@ -90,7 +90,7 @@ const BaristaForm = () => {
               <button className="button newdrink"  onClick={onNewDrink}>🔄</button>
             </div>
             <form className="container">
-              <div className="mini-container">
+              <div className={`mini-container ${correct_temp}`}>
                 <h3>Temperature</h3>
                 <div className="answer-space" id={correct_temp}>
                   {inputs["temperature"]} 
@@ -105,7 +105,7 @@ const BaristaForm = () => {
                   checked={inputs["temperature"]}
                 />
               </div>
-              <div className="mini-container">
+              <div className={`mini-container ${correct_syrup}`}>
                 <h3>Syrup</h3>
                 <div className="answer-space" id={correct_syrup}>
                   {inputs["syrup"]} 
@@ -120,7 +120,7 @@ const BaristaForm = () => {
                   checked={inputs["syrup"]}
                 />
               </div>
-              <div className="mini-container">
+              <div className={`mini-container ${correct_milk}`}>
                 <h3>Milk</h3>
                 <div className="answer-space" id={correct_milk}>
                   {inputs["milk"]}
@@ -135,7 +135,7 @@ const BaristaForm = () => {
                   checked={inputs["milk"]}
                 />
               </div>
-              <div className="mini-container">
+              <div className={`mini-container ${correct_blended}`}>
                 <h3>Blended</h3>
                 <div className="answer-space" id={correct_blended}>
                   {inputs["blended"]} 

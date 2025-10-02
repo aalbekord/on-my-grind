@@ -46,11 +46,11 @@ li {
 }
 
 .wrong {
-  background-color:rgb(219, 93, 93);
+  border: 2px solid rgb(219, 93, 93);
 }
 
 .correct {
-  background-color:rgb(191, 116, 191);
+  border: 2px solid rgb(91, 189, 58);
 }
 
 .answer-space {
