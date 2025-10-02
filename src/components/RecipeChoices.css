@@ -11,5 +11,12 @@ li {
 }
 
 .textbox {
-  
+  background-color: #FFFF;
+  color: black; /* Set the placeholder text color to gray */
+  opacity: 1; /* Ensure the placeholder text is fully visible */
+}
+
+.textbox::placeholder {
+  color: gray; /* Set the placeholder text color to gray */
+  opacity: 1; /* Ensure the placeholder text is fully visible */
 }
