@@ -83,6 +83,7 @@ button.newdrink {
   background-color: rgba(138, 98, 12, 0.942);
   font-weight: bold;
   color: white;
+  margin: 2px;
 }
 
 .title {
